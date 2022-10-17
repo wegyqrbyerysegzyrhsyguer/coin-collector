@@ -20,7 +20,7 @@ hedgehog = Actor("hedgehog")
 hedgehog.pos = 150, 100
 coin = Actor("coin")
 coin.pos = 200, 200
-background = pygame.image.load(r'C:\Users\Evgeny\Desktop\Python\Code GAMES\coin collector\images/coins_background.png')
+background = pygame.image.load(r'C:\Users\Evgeny\Desktop\Python\Code GAMES\coin collector\images/3_dall_E_images_in_1_500_504.png')
 def draw():
     screen.blit(background, (0, 0))
     fox.draw()
@@ -95,4 +95,7 @@ pgzrun.go()
 # WR 2 PLAYER: 2880
 # WR 1 PLAYER: 2400
 
-# TASKS: MAKE HEDGEHOG & FOX GO TO MIDDLE AFTER TOUCHING BORDER.
+# TASKS
+# 
+#   make hedgehog & fox go to middle after touching edge
+#   add how much time left
