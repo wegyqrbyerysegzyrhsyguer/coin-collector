@@ -73,7 +73,7 @@ def update():
     elif keyboard.s:
         hedgehog.y = hedgehog.y + 10
     elif keyboard.z:
-        hedgehog.y = 300
+        hedgehog.y = 200
         hedgehog.x = 200
     
 
